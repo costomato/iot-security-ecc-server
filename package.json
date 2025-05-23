@@ -1,0 +1,17 @@
+{
+  "name": "bmp_to_thingspeak_server",
+  "version": "1.0.0",
+  "description": "server to decrypt bpm data and send it to thingspeak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaustubh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "elliptic": "^6.6.1",
+    "express": "^5.1.0"
+  }
+}
